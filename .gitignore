@@ -1,0 +1,23 @@
+# Залежності — не потрібні в репозиторії
+node_modules/
+
+# Артефакт збірки — генерується командою npm run build
+dist/
+
+# Локальні змінні оточення (можуть містити секретні ключі)
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

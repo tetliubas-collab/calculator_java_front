@@ -1,0 +1,26 @@
+{
+  "name": "java-calculator-frontend",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Vue 3 frontend for Java Calculator",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.vue --fix",
+    "lint:check": "eslint . --ext .js,.vue",
+    "format": "prettier --write \"src/**/*.{js,vue,json,css}\""
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^9.9.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.2"
+  }
+}
